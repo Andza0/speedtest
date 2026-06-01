@@ -15,13 +15,13 @@ Paleidimas:
         ./main
     
     Geriausio serverio pagal vietove nustatymas"
-        ./main location {vietoves pavadinimas, pvz:. Latvia}
+        ./main -l {vietoves pavadinimas, pvz:. Latvia}
     
     Individualaus serverio parsisiuntimo greicio nustatymas:
-        ./main download {serverio host}
+        ./main -d {serverio host}
     
     Individualaus serverio siuntimo greicio nustatymas:
-        ./main upload {serverio host}
+        ./main -u {serverio host}
 
 Naudotojo vietoves nustatymui naudojamas ip-api.com API.
 
